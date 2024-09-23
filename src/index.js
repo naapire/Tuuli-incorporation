@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import JobDetail from './Components/JobDetail';
+import Home from "./Components/Home";
+import Filter from './Components/Filter';
+import Practice from './Components/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+  {/*<JobDetail/>*/}
   </React.StrictMode>
 );
 
